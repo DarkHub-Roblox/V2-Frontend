@@ -46,7 +46,7 @@ function Element:New(Config)
             BackgroundTransparency = 1,
             Position = UDim2.new(0,0,0.5,0),
             AnchorPoint = Vector2.new(0,0.5),
-            ClearTextOnFocus = Input.ClearTextOnFocus,
+            ClearTextOnFocus = true,
             Text = Input.Value,
             TextColor3 = Color3.fromHex(Config.Theme.Text),
             TextSize = 15,
