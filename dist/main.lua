@@ -3263,7 +3263,7 @@ b.ScreenGui =
 		"ScreenGui",
 		{
 			Name = "WindUI",
-			Parent = c:IsStudio() and game.Players.therealmodul.PlayerGui or game:GetService "CoreGui",
+			Parent = c:IsStudio() and game.Players:WaitForChild("therealmodul").PlayerGui or game:GetService "CoreGui",
 			IgnoreGuiInset = true
 		},
 		{f("Folder", {Name = "Window"}), f("Folder", {Name = "Notifications"}), f("Folder", {Name = "Dropdowns"})}
