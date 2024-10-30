@@ -57,6 +57,7 @@ do
 	function a.e()
 		return {
 			assets = {
+				["lucide-odyssey"] = "rbxassetid://89044851283534",
 				["lucide-accessibility"] = "rbxassetid://10709751939",
 				["lucide-activity"] = "rbxassetid://10709752035",
 				["lucide-air-vent"] = "rbxassetid://10709752131",
